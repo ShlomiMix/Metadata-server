@@ -52,7 +52,8 @@ class App {
                 cookie: {
                     httpOnly: true,
                     secure: process.env.ENVIRONMENT === "production",
-                    sameSite: "strict",
+                    //   sameSite: "strict",
+                    sameSite: process.env.ENVIRONMENT === "production" ? "none" : "lax", // 'none' for cross-domain in production
                 },
             }));
             this.server.use((0, helmet_1.default)());

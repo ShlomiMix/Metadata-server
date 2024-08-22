@@ -30,11 +30,10 @@ class App {
     // Enable CORS requests:
     this.server.use(
       cors({
-        origin: "https://metadata-frontend.onrender.com", 
+        origin: "https://metadata-frontend.onrender.com",
         credentials: true,
       })
     ); // Enable CORS for any frontend website.
-
 
     this.server.use(cookieParser());
 
@@ -43,16 +42,17 @@ class App {
         cookie: {
           httpOnly: true,
           secure: process.env.ENVIRONMENT === "production",
-          sameSite: "strict",
+          //   sameSite: "strict",
+          sameSite: process.env.ENVIRONMENT === "production" ? "none" : "lax", // 'none' for cross-domain in production
         },
       })
     );
 
     this.server.use(helmet());
     // Create a request.body containing the given json from the front:
- 
+
     this.server.use(express.json());
-    
+
     // Create request.files containing uploaded files:
     this.server.use(expressFileUpload());
 
