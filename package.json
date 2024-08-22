@@ -4,7 +4,7 @@
     "description": "",
     "scripts": {
         "build": "tsc",
-        "start": "nodemon --exec ts-node src/app.ts --quiet",
+        "start": "node dist/src/app.ts",
         "test": "mocha --require ts-node/register tests/**/*.ts --exit",
         "watch-ts": "tsc -w"
     },

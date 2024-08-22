@@ -16,7 +16,6 @@ exports.urlMetadataRouter = void 0;
 const express_1 = __importDefault(require("express"));
 const url_metadata_service_1 = require("../5-services/url-metadata-service");
 const enums_1 = require("../3-models/enums");
-const csurf_1 = __importDefault(require("csurf")); // Add this import
 const helmet_1 = __importDefault(require("helmet")); // Add this import
 const cookie_parser_1 = __importDefault(require("cookie-parser"));
 // Data controller:
@@ -25,13 +24,13 @@ class UrlMetadataController {
     constructor() {
         // Create a router object for listening to HTTP requests:
         this.router = express_1.default.Router();
-        this.csrfProtection = (0, csurf_1.default)({
-            cookie: {
-                httpOnly: true,
-                secure: process.env.ENVIRONMENT === "production", // Use secure cookies in production
-                sameSite: "strict", // Adjust as needed
-            },
-        }); // CSRF protection middleware
+        //   private csrfProtection = csrf({
+        //     cookie: {
+        //       httpOnly: true,
+        //       secure: process.env.ENVIRONMENT === "production", // Use secure cookies in production
+        //       sameSite: "strict", // Adjust as needed
+        //     },
+        //   }); // CSRF protection middleware
         this.helmetMiddleware = (0, helmet_1.default)(); // Helmet middleware for security headers
         this.registerRoutes();
     }
@@ -41,6 +40,7 @@ class UrlMetadataController {
         this.router.use((0, cookie_parser_1.default)()); // Ensure cookieParser is used before csrfProtection
         // this.router.use(this.csrfProtection);
         this.router.get("/csrf-token", this.getCsrfToken);
+        this.router.get("/metadata", this.getAllMetadata);
         this.router.post("/fetch-metadata", this.addMetadata);
     }
     getCsrfToken(request, response, next) {
@@ -53,6 +53,17 @@ class UrlMetadataController {
                 const urls = request === null || request === void 0 ? void 0 : request.body;
                 const addedMetadata = yield url_metadata_service_1.urlMetadataService.addMetadata(urls);
                 response.status(enums_1.StatusCode.Created).json(addedMetadata);
+            }
+            catch (err) {
+                next(err);
+            }
+        });
+    }
+    getAllMetadata(request, response, next) {
+        return __awaiter(this, void 0, void 0, function* () {
+            try {
+                const allMetadata = yield url_metadata_service_1.urlMetadataService.getAllMetadata();
+                response.json(allMetadata);
             }
             catch (err) {
                 next(err);
