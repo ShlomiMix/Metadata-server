@@ -60,27 +60,24 @@ class UrlMetadataService {
   }
 
   // Function to add new metadata
-  public async addMetadata(urls: { url: string[] }): Promise<IUrlMetadataModel[]> {
+  public async addMetadata(urls: string[]): Promise<IUrlMetadataModel[]> {
     // Access the array of URLs from the input object
-    const urlList = urls.url;
+    // const urlList = urls.url;
 
     try {
-        const metadataPromises = urlList?.map((url) => this.fetchMetadata(url));
-        const metadataArray = await Promise.all(metadataPromises);
-        const savedMetadata = await UrlMetadataModel.insertMany(metadataArray);
-        return savedMetadata;
+      const metadataPromises = urls?.map((url) => this.fetchMetadata(url));
+      const metadataArray = await Promise.all(metadataPromises);
+      const savedMetadata = await UrlMetadataModel.insertMany(metadataArray);
+      return savedMetadata;
     } catch (error: any) {
-        throw new Error(`Error adding metadata: ${error.message}`);
+      throw new Error(`Error adding metadata: ${error.message}`);
     }
-}
+  }
 
-public async getAllMetadata():Promise<IUrlMetadataModel[]> {
-    const metadata = await UrlMetadataModel.find().exec()
-    return metadata
-}
-
-
-  
+  public async getAllMetadata(): Promise<IUrlMetadataModel[]> {
+    const metadata = await UrlMetadataModel.find().exec();
+    return metadata;
+  }
 }
 
 export const urlMetadataService = new UrlMetadataService();
