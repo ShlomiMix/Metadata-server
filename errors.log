@@ -7647,3 +7647,308 @@ Stack: ForbiddenError: invalid csrf token
     at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17)
 ---------------------------------------
 
+Time: Thu Aug 22 2024 11:30:38 GMT+0300 (שעון ישראל (קיץ))
+Message: invalid csrf token
+Stack: ForbiddenError: invalid csrf token
+    at csrf (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\csurf\index.js:112:19)
+    at Layer.handle [as handle_request] (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:280:10)
+    at cookieParser (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\cookie-parser\index.js:57:14)
+    at Layer.handle [as handle_request] (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:286:9
+---------------------------------------
+
+Time: Thu Aug 22 2024 11:34:53 GMT+0300 (שעון ישראל (קיץ))
+Message: invalid csrf token
+Stack: ForbiddenError: invalid csrf token
+    at csrf (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\csurf\index.js:112:19)
+    at Layer.handle [as handle_request] (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:280:10)
+    at cookieParser (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\cookie-parser\index.js:71:5)
+    at Layer.handle [as handle_request] (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:286:9
+---------------------------------------
+
+Time: Thu Aug 22 2024 11:34:54 GMT+0300 (שעון ישראל (קיץ))
+Message: invalid csrf token
+Stack: ForbiddenError: invalid csrf token
+    at csrf (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\csurf\index.js:112:19)
+    at Layer.handle [as handle_request] (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:280:10)
+    at cookieParser (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\cookie-parser\index.js:71:5)
+    at Layer.handle [as handle_request] (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:286:9
+---------------------------------------
+
+Time: Thu Aug 22 2024 11:35:22 GMT+0300 (שעון ישראל (קיץ))
+Message: invalid csrf token
+Stack: ForbiddenError: invalid csrf token
+    at csrf (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\csurf\index.js:112:19)
+    at Layer.handle [as handle_request] (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:280:10)
+    at cookieParser (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\cookie-parser\index.js:71:5)
+    at Layer.handle [as handle_request] (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:286:9
+---------------------------------------
+
+Time: Thu Aug 22 2024 11:35:39 GMT+0300 (שעון ישראל (קיץ))
+Message: invalid csrf token
+Stack: ForbiddenError: invalid csrf token
+    at csrf (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\csurf\index.js:112:19)
+    at Layer.handle [as handle_request] (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:280:10)
+    at cookieParser (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\cookie-parser\index.js:71:5)
+    at Layer.handle [as handle_request] (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:286:9
+---------------------------------------
+
+Time: Thu Aug 22 2024 11:37:37 GMT+0300 (שעון ישראל (קיץ))
+Message: Error adding metadata: urls.map is not a function
+Stack: Error: Error adding metadata: urls.map is not a function
+    at UrlMetadataService.<anonymous> (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:74:13)
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:4:12)
+    at UrlMetadataService.addMetadata (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:70:16)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:53:54
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:8:71
+    at new Promise (<anonymous>)
+---------------------------------------
+
+Time: Thu Aug 22 2024 11:37:46 GMT+0300 (שעון ישראל (קיץ))
+Message: Error adding metadata: urls.map is not a function
+Stack: Error: Error adding metadata: urls.map is not a function
+    at UrlMetadataService.<anonymous> (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:74:13)
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:4:12)
+    at UrlMetadataService.addMetadata (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:70:16)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:53:54
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:8:71
+    at new Promise (<anonymous>)
+---------------------------------------
+
+Time: Thu Aug 22 2024 11:38:23 GMT+0300 (שעון ישראל (קיץ))
+Message: Error adding metadata: urls.map is not a function
+Stack: Error: Error adding metadata: urls.map is not a function
+    at UrlMetadataService.<anonymous> (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:74:13)
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:4:12)
+    at UrlMetadataService.addMetadata (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:70:16)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:53:54
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:8:71
+    at new Promise (<anonymous>)
+---------------------------------------
+
+Time: Thu Aug 22 2024 11:38:34 GMT+0300 (שעון ישראל (קיץ))
+Message: Error adding metadata: urls.map is not a function
+Stack: Error: Error adding metadata: urls.map is not a function
+    at UrlMetadataService.<anonymous> (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:74:13)
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:4:12)
+    at UrlMetadataService.addMetadata (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:70:16)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:53:54
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:8:71
+    at new Promise (<anonymous>)
+---------------------------------------
+
+Time: Thu Aug 22 2024 11:39:18 GMT+0300 (שעון ישראל (קיץ))
+Message: Error adding metadata: urls.map is not a function
+Stack: Error: Error adding metadata: urls.map is not a function
+    at UrlMetadataService.<anonymous> (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:74:13)
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:4:12)
+    at UrlMetadataService.addMetadata (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:70:16)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:53:54
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:8:71
+    at new Promise (<anonymous>)
+---------------------------------------
+
+Time: Thu Aug 22 2024 11:39:41 GMT+0300 (שעון ישראל (קיץ))
+Message: Error adding metadata: urls.map is not a function
+Stack: Error: Error adding metadata: urls.map is not a function
+    at UrlMetadataService.<anonymous> (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:74:13)
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:4:12)
+    at UrlMetadataService.addMetadata (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:70:16)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:53:54
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:8:71
+    at new Promise (<anonymous>)
+---------------------------------------
+
+Time: Thu Aug 22 2024 11:40:27 GMT+0300 (שעון ישראל (קיץ))
+Message: Error adding metadata: urls.map is not a function
+Stack: Error: Error adding metadata: urls.map is not a function
+    at UrlMetadataService.<anonymous> (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:74:13)
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:4:12)
+    at UrlMetadataService.addMetadata (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:70:16)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:53:54
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:8:71
+    at new Promise (<anonymous>)
+---------------------------------------
+
+Time: Thu Aug 22 2024 11:42:00 GMT+0300 (שעון ישראל (קיץ))
+Message: Error adding metadata: urls.map is not a function
+Stack: Error: Error adding metadata: urls.map is not a function
+    at UrlMetadataService.<anonymous> (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:74:13)
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:4:12)
+    at UrlMetadataService.addMetadata (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:73:16)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:53:54
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:8:71
+    at new Promise (<anonymous>)
+---------------------------------------
+
+Time: Thu Aug 22 2024 11:42:39 GMT+0300 (שעון ישראל (קיץ))
+Message: Error adding metadata: urls.map is not a function
+Stack: Error: Error adding metadata: urls.map is not a function
+    at UrlMetadataService.<anonymous> (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:70:13)
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:4:12)
+    at UrlMetadataService.addMetadata (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:68:16)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:53:54
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:8:71
+    at new Promise (<anonymous>)
+---------------------------------------
+
+Time: Thu Aug 22 2024 11:44:16 GMT+0300 (שעון ישראל (קיץ))
+Message: Error adding metadata: urls.map is not a function
+Stack: Error: Error adding metadata: urls.map is not a function
+    at UrlMetadataService.<anonymous> (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:72:13)
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:4:12)
+    at UrlMetadataService.addMetadata (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:68:16)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:53:54
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:8:71
+    at new Promise (<anonymous>)
+---------------------------------------
+
+Time: Thu Aug 22 2024 11:45:40 GMT+0300 (שעון ישראל (קיץ))
+Message: Error adding metadata: urls.map is not a function
+Stack: Error: Error adding metadata: urls.map is not a function
+    at UrlMetadataService.<anonymous> (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:74:13)
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:4:12)
+    at UrlMetadataService.addMetadata (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:68:16)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:53:54
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:8:71
+    at new Promise (<anonymous>)
+---------------------------------------
+
+Time: Thu Aug 22 2024 11:46:36 GMT+0300 (שעון ישראל (קיץ))
+Message: Error adding metadata: urls.map is not a function
+Stack: Error: Error adding metadata: urls.map is not a function
+    at UrlMetadataService.<anonymous> (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:74:13)
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:4:12)
+    at UrlMetadataService.addMetadata (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:68:16)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:53:54
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:8:71
+    at new Promise (<anonymous>)
+---------------------------------------
+
+Time: Thu Aug 22 2024 11:50:31 GMT+0300 (שעון ישראל (קיץ))
+Message: Error adding metadata: urls.map is not a function
+Stack: Error: Error adding metadata: urls.map is not a function
+    at UrlMetadataService.<anonymous> (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:72:13)
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:4:12)
+    at UrlMetadataService.addMetadata (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:68:16)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:53:54
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:8:71
+    at new Promise (<anonymous>)
+---------------------------------------
+
+Time: Thu Aug 22 2024 11:52:37 GMT+0300 (שעון ישראל (קיץ))
+Message: Route /api/metadata not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Aug 22 2024 11:52:57 GMT+0300 (שעון ישראל (קיץ))
+Message: Error adding metadata: urls.map is not a function
+Stack: Error: Error adding metadata: urls.map is not a function
+    at UrlMetadataService.<anonymous> (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:73:13)
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:4:12)
+    at UrlMetadataService.addMetadata (C:\Projects-Programming-Resume\Metadata-app\Backend\src\5-services\url-metadata-service.ts:68:16)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:53:54
+    at Generator.next (<anonymous>)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\src\6-controllers\url-metadata-controller.ts:8:71
+    at new Promise (<anonymous>)
+---------------------------------------
+
+Time: Thu Aug 22 2024 12:03:33 GMT+0300 (שעון ישראל (קיץ))
+Message: invalid csrf token
+Stack: ForbiddenError: invalid csrf token
+    at csrf (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\csurf\index.js:112:19)
+    at Layer.handle [as handle_request] (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:280:10)
+    at cookieParser (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\cookie-parser\index.js:71:5)
+    at Layer.handle [as handle_request] (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Projects-Programming-Resume\Metadata-app\Backend\node_modules\express\lib\router\index.js:286:9
+---------------------------------------
+
