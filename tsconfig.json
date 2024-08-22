@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "outDir": "./dist",
+    },
+    "include": ["src/**/*.ts", "tests/**/*.ts", "tests/metadata-controller.test.ts"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+  }
