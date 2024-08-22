@@ -44,7 +44,7 @@ class App {
         return __awaiter(this, void 0, void 0, function* () {
             // Enable CORS requests:
             this.server.use((0, cors_1.default)({
-                origin: "http://localhost:3000", // Your frontend origin
+                origin: "https://metadata-frontend.onrender.com",
                 credentials: true,
             })); // Enable CORS for any frontend website.
             this.server.use((0, cookie_parser_1.default)());

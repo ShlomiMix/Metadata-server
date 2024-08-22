@@ -67,9 +67,9 @@ class UrlMetadataService {
     addMetadata(urls) {
         return __awaiter(this, void 0, void 0, function* () {
             // Access the array of URLs from the input object
-            const urlList = urls.url;
+            // const urlList = urls.url;
             try {
-                const metadataPromises = urlList === null || urlList === void 0 ? void 0 : urlList.map((url) => this.fetchMetadata(url));
+                const metadataPromises = urls === null || urls === void 0 ? void 0 : urls.map((url) => this.fetchMetadata(url));
                 const metadataArray = yield Promise.all(metadataPromises);
                 const savedMetadata = yield url_metadata_model_1.UrlMetadataModel.insertMany(metadataArray);
                 return savedMetadata;

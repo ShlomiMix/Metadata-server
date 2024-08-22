@@ -30,7 +30,7 @@ class App {
     // Enable CORS requests:
     this.server.use(
       cors({
-        origin: "http://localhost:3000", // Your frontend origin
+        origin: "https://metadata-frontend.onrender.com", 
         credentials: true,
       })
     ); // Enable CORS for any frontend website.
